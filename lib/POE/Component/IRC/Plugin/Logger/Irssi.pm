@@ -1,6 +1,6 @@
 package POE::Component::IRC::Plugin::Logger::Irssi;
 
-our $VERSION = 0.001;
+our $VERSION = 0.001001;
 
 use 5.014000;
 use strict;

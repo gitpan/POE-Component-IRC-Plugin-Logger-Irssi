@@ -1,5 +1,5 @@
-POE-Component-IRC-Plugin-Logger-Irssi version 0.001
-==================================================
+POE-Component-IRC-Plugin-Logger-Irssi version 0.001001
+======================================================
 
 POE::Component::IRC::Plugin::Logger::Irssi is an extension to the
 L<POE::Component::IRC::Plugin::Logger> PoCo-IRC plugin that logs

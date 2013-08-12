@@ -1,5 +1,7 @@
 Revision history for Perl extension POE::Component::IRC::Plugin::Logger::Irssi.
 
+0.001001 Mon 12 Aug 20:01:51 EEST 2013
+	- Fix Makefile.PL
 0.001 Mon 12 Aug 15:58:49 EEST 2013
 	- Initial release
 
