@@ -1,3 +1,4 @@
+#!/usr/bin/perl
 use v5.14;
 use strict;
 use warnings;
@@ -20,4 +21,3 @@ is $fmt->{part}->('mgv', 'marius@example.org', '#chan', 'bye'), '-!- mgv [marius
 is $fmt->{quit}->('mgv', 'marius@example.org', 'buh-bye'), '-!- mgv [marius@example.org] has quit [buh-bye]', 'quit';
 is $fmt->{kick}->('mgv', 'troll', '#chan', 'trolling'), '-!- troll was kicked from #chan by mgv [trolling]', 'kick';
 is $fmt->{topic_set_by}->('#chan', 'mgv', 0), "-!- Topic set by mgv [$localtime0]";
-

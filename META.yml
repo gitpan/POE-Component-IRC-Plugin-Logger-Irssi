@@ -1,23 +1,24 @@
---- #YAML:1.0
-name:               POE-Component-IRC-Plugin-Logger-Irssi
-version:            0.001001
-abstract:           Log IRC events like irssi
+---
+abstract: 'Log IRC events like irssi'
 author:
-    - Marius Gavrilescu <marius@ieval.ro>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Marius Gavrilescu <marius@ieval.ro>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    perl:  5.014000
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.57_05
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
-dynamic_config:     0
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: POE-Component-IRC-Plugin-Logger-Irssi
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  perl: '5.014000'
+resources:
+  repository: http://git.ieval.ro/?p=poe-component-irc-plugin-logger-irssi.git
+version: '0.001002'
